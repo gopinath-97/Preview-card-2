@@ -1,0 +1,135 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color:  hsl(204, 43%, 93%);
+  font-family: "Karla",sans-serif;
+  font-size: 16px;
+  
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+.container{
+  box-sizing: border-box;
+  width: 700px;
+}
+.card{
+  width: 700px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+.abt-community{
+  background-color: white;
+  padding: 20px 40px;
+}
+.abt-community h4{
+  color: hsl(71, 73%, 54%);
+  margin: 20px 0;
+  font-weight: 700;
+}
+.abt-community h2{
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  letter-spacing:2px;
+}
+.abt-community p{
+  color: hsl(218, 22%, 67%);
+  line-height: 8px;
+}
+
+/* subscription */
+.subscription{
+  background-color:  hsl(179, 62%, 43%);
+  padding: 20px 30px;
+  color:white;
+ 
+}
+.subscription h5{
+ font-weight: 700;
+ font-size: 24px;
+}
+.center{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0;
+}
+.subscription .price{
+  font-size: 42px;
+}
+
+.des-abt-price{
+  margin-bottom: 35px;
+}
+button{
+  width: 90%;
+  padding: 10px 0;
+  background-color:  hsl(71, 73%, 54%);
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  
+}
+/* abt-us */
+
+.abt{
+  background-color:   hsl(179, 63%, 46%);
+  padding: 20px 30px;
+  color:white;
+}
+.abt h5{
+  font-weight: 700;
+ font-size: 24px;
+}
+.list{
+  list-style: none;
+  color:#dee2e6;
+  padding-left: 0;
+}
+
+@media all and (max-width:425px){
+  .main{
+    width: 100vw;
+    margin: auto;
+  }
+  .card{
+    width: 100%;
+    display: inline-block;
+    margin: 30px auto;
+  }
+  .mobile{
+    margin: auto;
+    width: 100%;
+  }
+  .abt-community{
+    padding: 20px 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h4{
+    font-size: 16px;
+  }
+  .abt-community p{
+    font-size: 16px;
+    line-height: normal;
+    margin: 0;
+    display: flex;
+  }
+  h5{
+    font-size: 24px;
+  }
+  .subscription .price{
+    font-size: 32px;
+  }
+  .abt h5{
+    font-size: 22px;
+  }
+}
